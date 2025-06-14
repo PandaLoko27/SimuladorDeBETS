@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VÍCIO BET</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='bet.css') }}" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎰 VÍCIO BET 🎰</h1>
+
+    <div class="saldo">Saldo: <span>R$ {{ saldo }}</span></div>
+
+    <div class="resultado">
+      <span class="simbolo">{{ resultado[0] }}</span>
+      <span class="simbolo">{{ resultado[1] }}</span>
+      <span class="simbolo">{{ resultado[2] }}</span>
+    </div>
+
+    {% if saldo > 0 %}
+    <form method="POST">
+      <input type="number" id="aposta" name="aposta" min="1" max="{{ saldo }}" value="{{ aposta }}" required />
+      <button type="submit">Apostar</button>
+    </form>
+    {% endif %}
+
+    <div class="mensagem">
+      {% if saldo > 0 %}
+        {{ mensagem }}
+      {% endif %}
+    </div>
+
+    {% if saldo == 0 %}
+    <div class="mensagem-final">
+      <p>As casas de aposta sempre ganham. Você não.</p>
+      <form method="POST" action="{{ url_for('index') }}">
+        <button type="submit" name="reset" value="1">Reiniciar Jogo</button>
+      </form>
+    </div>
+    {% endif %}
+  </div>
+</body>
+</html>
