@@ -1,7 +1,9 @@
 # 🎰 Simulador de Bets - Caça Níquel Conscientizador
 
 > Um projeto interativo desenvolvido com Flask, HTML e CSS para conscientizar sobre os **malefícios das apostas online**.
-
+---
+## 📘 Licença
+MIT License © Otávio Guedes
 ---
 
 ## 📌 Objetivo
@@ -39,5 +41,17 @@ Este projeto é educacional e visa alertar sobre os perigos do vício em jogos d
 Ele não envolve dinheiro real nem incentiva o uso de plataformas de apostas.
 
 ---
-## 📘 Licença
-MIT License © Otávio Guedes
+## 🚀 Como usar o projeto
+
+Execute os comandos abaixo no seu terminal:
+
+```bash
+git clone https://github.com/seu-usuario/SimuladorDeBETS.git
+cd SimuladorDeBETS
+python -m venv venv
+source venv/bin/activate  # ou: venv\Scripts\activate (no Windows)
+pip install flask
+python bet.py
+
+depois abra no navegador:
+http://127.0.0.1:5000/
