@@ -22,6 +22,18 @@ Este projeto simula um caça-níquel com aparência moderna de cassino. Seu prop
 "Enquanto você tenta recuperar o que perdeu, a casa enriquece."
 
 ---
+## Estrutura do projeto:
+
+SimuladorDeBET/
+│
+├── bet.py
+├── templates/
+│   └── bet.html
+├── static/
+│   └── style.css
+
+
+---
 ## ⚠️ Aviso
 Este projeto é educacional e visa alertar sobre os perigos do vício em jogos de azar e apostas online.
 Ele não envolve dinheiro real nem incentiva o uso de plataformas de apostas.
