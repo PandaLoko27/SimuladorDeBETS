@@ -6,36 +6,26 @@
 
 ## 📌 Objetivo
 
-Este projeto simula um caça-níquel com uma aparência moderna de cassino. Seu propósito **não é incentivar apostas**, mas **mostrar como os jogos de azar podem manipular o comportamento do jogador** — começando com ganhos e terminando em perdas totais.
+Este projeto simula um caça-níquel com aparência moderna de cassino. Seu propósito **não é incentivar apostas**, mas **mostrar como os jogos de azar manipulam o comportamento do jogador** — começando com ganhos e terminando em perdas totais.
 
-> Ao final, a mensagem **"Enquanto você tenta recuperar o que perdeu, a casa enriquece."** aparece, reforçando o caráter reflexivo.
+> Ao final, a frase **"Enquanto você tenta recuperar o que perdeu, a casa enriquece."** é exibida, reforçando o alerta.
 
 ---
-
 ## 🧠 Como funciona
+* Começa com R$100 de saldo.
 
-- O jogador começa com um **saldo inicial de R$100**.
-- Nas **primeiras 5 rodadas**, o sistema **força vitórias** para gerar uma falsa sensação de sorte.
-- Após esse período, as rodadas passam a ser **programadas para gerar perdas**.
-- Quando o saldo chega a **zero**, a mensagem de conscientização é exibida.
+* As primeiras 5 rodadas garantem vitória com símbolos iguais.
 
----
+* Depois, o jogo força perdas até o saldo zerar.
 
-## 💻 Tecnologias Utilizadas
-
-- Python 3
-- Flask
-- HTML5
-- CSS3 (com tema neon/cassino)
-- Emojis para simular os rolos do caça-níquel 🎰
+* Quando o saldo zera, aparece a frase:
+"Enquanto você tenta recuperar o que perdeu, a casa enriquece."
 
 ---
+## ⚠️ Aviso
+Este projeto é educacional e visa alertar sobre os perigos do vício em jogos de azar e apostas online.
+Ele não envolve dinheiro real nem incentiva o uso de plataformas de apostas.
 
-## 🧪 Como rodar o projeto
-
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/seu-usuario/simulador-bets.git
-cd simulador-bets
-
+---
+## 📘 Licença
+MIT License © Otávio Guedes
