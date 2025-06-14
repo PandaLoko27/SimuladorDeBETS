@@ -1,0 +1,88 @@
+body {
+    background: radial-gradient(circle, #000000 0%, #1f1f1f 100%);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid #ffcc00;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 15px #ffcc00;
+    width: 320px;
+}
+
+h1 {
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 1em;
+}
+
+button {
+    background-color: #ffcc00;
+    color: #000;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+.saldo, .mensagem, .mensagem-final {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.mensagem-final {
+    font-weight: bold;
+    color: #ff4444;
+}
+
+.reiniciar {
+    display: inline-block;
+    margin-top: 15px;
+    color: #ffcc00;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.resultado {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.simbolo {
+    font-size: 3em;
+    margin: 0 8px;
+    display: inline-block;
+    text-shadow: 0 0 5px #ffcc00;
+    border: 2px solid #ffcc00;  /* Borda dourada */
+    padding: 10px;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 10px #ffcc00;
+}
