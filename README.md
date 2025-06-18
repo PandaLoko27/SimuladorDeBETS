@@ -1,9 +1,7 @@
 # 🎰 Simulador de Bets - Caça Níquel Conscientizador
 
 > Um projeto interativo desenvolvido com Flask, HTML e CSS para conscientizar sobre os **malefícios das apostas online**.
----
-## 📘 Licença
-MIT License © Otávio Guedes
+
 ---
 
 ## 📌 Objetivo
