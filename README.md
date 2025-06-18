@@ -44,7 +44,7 @@ Ele não envolve dinheiro real nem incentiva o uso de plataformas de apostas.
 Execute os comandos abaixo no seu terminal:
 
 ```bash
-git clone https://github.com/seu-usuario/SimuladorDeBETS.git
+git clone https://github.com/PandaLoko27/SimuladorDeBETS.git
 cd SimuladorDeBETS
 python -m venv venv
 source venv/bin/activate  # ou: venv\Scripts\activate (no Windows)
