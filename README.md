@@ -53,3 +53,15 @@ python bet.py
 
 depois abra no navegador:
 http://127.0.0.1:5000/
+````
+
+---
+
+
+## 📝 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+---
+
+Feito com ❤️ por Otávio Guedes
